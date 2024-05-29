@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isScrollingUp, setIsScrollingUp] = useState(true);
+    const [isAtTop, setIsAtTop] = useState(true);
 
     useEffect(() => {
         let lastScrollY = window.pageYOffset;
         const handleScroll = () => {
             const currentScrollY = window.pageYOffset;
+            setIsAtTop(currentScrollY === 0);
             if (currentScrollY === 0) {
                 setIsScrollingUp(true);
             } else {
@@ -21,11 +23,11 @@ const Navbar = () => {
     }, []);
 
     return (
-        <header className={`bg-white shadow-md font-sans fixed w-full z-50 transition-transform duration-300 ${isScrollingUp ? 'transform translate-y-0' : 'transform -translate-y-full'}`}>
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+        <header className={`bg-white font-sans fixed w-full z-50 transition-transform duration-300 ${isAtTop ? 'shadow-none border-none' : 'shadow-md border-b'} ${isScrollingUp ? 'transform translate-y-0' : 'transform -translate-y-full'}`}>
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20"> {/* Increased height from h-16 to h-20 */}
                 <div className="flex-shrink-0">
                     <Link to="/">
-                        <img className="h-8 w-auto" src="/logo.svg" alt="Heaca Logo" />
+                        <img className="h-16 w-auto" src="/HeacaLego.png" alt="Heaca Logo" /> {/* Logo height can remain as is or be adjusted */}
                     </Link>
                 </div>
                 <nav className="hidden md:flex space-x-8">
