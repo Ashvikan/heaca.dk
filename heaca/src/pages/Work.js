@@ -6,7 +6,6 @@ import React from "react";
 const Work = () => {
     return (
         <>
-            <Navbar />
             <main className="p-4 text-center">
                 <h1 className="text-4xl font-bold my-8">Our Work</h1>
                 <p className="text-lg">Here are some of the projects we've worked on...</p>

@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 const Services = () => {
     return (
         <>
-            <Navbar />
             <main className="bg-white">
                 <section className="hero-section text-center py-32 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +46,6 @@ const Services = () => {
                     </div>
                 </section>
             </main>
-            <Footer />
         </>
     );
 };
