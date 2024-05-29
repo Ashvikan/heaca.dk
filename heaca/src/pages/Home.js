@@ -8,38 +8,39 @@ const Home = () => {
             <Navbar />
             <main className="bg-white">
                 {/* Hero Section */}
-                <section className="hero-section text-center py-32 bg-white">
+                <section className="hero-section py-48 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h1 className="text-5xl font-bold text-gray-900 mb-4">At the forefront of innovation</h1>
-                        <p className="text-lg text-gray-700 mb-6">
-                            We specialize in IT and AI, focusing on solving complex problems with a strong commitment to
-                            sustainability from start to finish. Our mission is to continuously push boundaries in
-                            everything we do. We work alongside our customers to create and apply cutting-edge digital
-                            solutions that tackle tough challenges and help make the world a better place.
-                        </p>
-                        <div className="flex justify-center">
-                            <span className="h-1 w-20 bg-orange-500 block"></span>
+                        <h1 className="text-5xl font-bold text-gray-900 mb-6">
+                            At the forefront of workplace
+                        </h1>
+                        <div className="flex justify-start mb-4">
+                            <span className="h-1 w-16 bg-orange-500 block"></span>
                         </div>
+                        <p className="text-lg text-gray-700 mb-12 max-w-2xl">
+                            Heaca specializes in helping companies create healthier and more productive work environments through tailored health-promoting solutions. We collaborate with businesses of all sizes and industries, offering expert advice in the development and implementation of health policies.                        </p>
                     </div>
                 </section>
 
                 {/* Curiosity Section */}
                 <section className="curiosity-section py-32 bg-gray-50">
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Changing the
-                            world</h2>
-                        <h3 className="text-3xl font-bold text-gray-900 mb-4">Curiosity creates transformation</h3>
-                        <p className="text-lg text-gray-700 mb-6">
-                            We hang out with thought-leaders and experts, share knowledge and insights in order to
-                            identify new trends and turn them into capabilities. This is how we’ve established ourselves
-                            as a true NextGen company.
-                        </p>
-                        <div className="flex justify-center">
+                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+                        <div className="lg:w-1/2">
+                            <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Changing the
+                                world</h2>
+                            <h3 className="text-3xl font-bold text-gray-900 mb-4">Curiosity creates transformation</h3>
+                            <p className="text-lg text-gray-700 mb-12">
+                                Discover why companies choose us. At Heaca, we offer unparalleled expertise based on
+                                decades of experience within Denmark's public and private healthcare sectors. Our
+                                profound knowledge allows us to navigate the complexities of the healthcare sector with
+                                precision and insight, ensuring our clients receive the best possible support.
+                            </p>
+                        </div>
+                        <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
                             <div className="relative">
                                 <img src="/images/1.jpg" alt="Transformation"
-                                     className="rounded-lg shadow-lg w-full max-w-2xl"/>
+                                     className="rounded-lg shadow-lg w-full max-w-xxl"/>
                                 <img src="/images/3.jpg" alt="Secondary"
-                                     className="rounded-lg shadow-lg w-32 absolute bottom-0 right-0 transform translate-x-4 translate-y-4"/>
+                                     className="rounded-lg shadow-lg w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-4" />
                             </div>
                         </div>
                     </div>
@@ -48,66 +49,68 @@ const Home = () => {
                 {/* Services Section */}
                 <section className="services-section py-32 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Main Business
-                            Areas</h2>
+                        <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Digital Health</h3>
-                                <p className="text-gray-700 mb-4">We are committed to making life easier for patients
-                                    and healthcare workers across sectors and silos.</p>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Policies</h3>
+                                <p className="text-gray-700 mb-4">Creating a Health-Promoting Workplace. At Heaca, we
+                                    specialize in helping companies develop and implement tailored health policies that
+                                    promote well-being and efficiency in the workplace.</p>
                                 <div className="flex justify-end">
                                     <span className="text-orange-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">FinTech</h3>
-                                <p className="text-gray-700 mb-4">Every day we help European FinTechs, like established
-                                    financial institutions and start-ups, by designing and building digital products and
-                                    platforms.</p>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Services</h3>
+                                <p className="text-gray-700 mb-4">Heaca offers professional advice and guidance on
+                                    essential health services for businesses, including health insurance and vaccination
+                                    programs.</p>
                                 <div className="flex justify-end">
                                     <span className="text-orange-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Smart Building</h3>
-                                <p className="text-gray-700 mb-4">Saving the planet is good business, and we are
-                                    fighting climate change by developing solutions that lower carbon footprint and
-                                    improve energy savings.</p>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Comprehensive Health
+                                    Evaluations</h3>
+                                <p className="text-gray-700 mb-4">We provide thorough health assessments to ensure your
+                                    employees' well-being and identify areas for improvement.</p>
                                 <div className="flex justify-end">
                                     <span className="text-orange-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 gap-8 mt-12">
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
-                                <div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Cloud Operation</h3>
-                                    <p className="text-gray-700">At the heart of it, application operations is Business
-                                        Continuity. We offer you secure and transparent application operations, acting
-                                        as a catalyst for your business to thrive.</p>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Vaccination Programs</h3>
+                                <p className="text-gray-700 mb-4">Vaccinations are crucial for employee health and
+                                    safety, both in everyday life and during business trips. We offer advice on seasonal
+                                    vaccines, travel vaccines, and more.</p>
+                                <div className="flex justify-end">
+                                    <span className="text-orange-500 font-bold text-lg">→</span>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
-                                <div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Cyber Protection</h3>
-                                    <p className="text-gray-700">We lead the way in the security space, facilitated by
-                                        our deep understanding of the processes and technologies behind it.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Forensic Travel and Deployment
+                                    Advice</h3>
+                                <p className="text-gray-700 mb-4">We ensure that employees are well-prepared for
+                                    international assignments with thorough health checks and advice on necessary
+                                    vaccinations and health precautions.</p>
+                                <div className="flex justify-end">
+                                    <span className="text-orange-500 font-bold text-lg">→</span>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
-                                <div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Smart Enterprise</h3>
-                                    <p className="text-gray-700">We facilitate revolutionary user experiences for our
-                                        enterprise customers through user-centric solutions anchored in our strategic
-                                        partnerships with Apple and SAP.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">First Aid Training</h3>
+                                <p className="text-gray-700 mb-4">Our comprehensive first aid training courses ensure
+                                    that your employees are equipped to handle emergencies effectively, creating a safer
+                                    workplace.</p>
+                                <div className="flex justify-end">
+                                    <span className="text-orange-500 font-bold text-lg">→</span>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
                             </div>
                         </div>
                     </div>
-                </section>
+            </section>
 
                 <section className="latest-news-section py-32 bg-gray-50">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -117,24 +120,40 @@ const Home = () => {
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">May 15, 2024</p>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Trifork takes over the
-                                        activities of Marstrand Innovation A/S</h3>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Heaca Launches New
+                                        Comprehensive Health Evaluation Program</h3>
+                                    <p className="text-gray-700">Discover how our new health evaluation program is
+                                        designed to boost employee well-being and productivity.</p>
                                 </div>
                                 <span className="text-orange-500 font-bold text-lg">→</span>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">May 08, 2024</p>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">European Health Data Space
-                                        (EHDS): A New Era for Seamless and Secure Health Data Sharing Across Europe</h3>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Heaca's Role in the European
+                                        Health Data Space (EHDS) Initiative</h3>
+                                    <p className="text-gray-700">Explore Heaca's contributions to the EHDS for seamless
+                                        and secure health data sharing across Europe.</p>
                                 </div>
                                 <span className="text-orange-500 font-bold text-lg">→</span>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">May 07, 2024</p>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Navigating the Future of
-                                        Financial Security and Resilience</h3>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">New Innovations in Corporate
+                                        Wellness Programs by Heaca</h3>
+                                    <p className="text-gray-700">Learn about the latest innovations in our wellness
+                                        programs aimed at enhancing employee health and reducing absenteeism.</p>
+                                </div>
+                                <span className="text-orange-500 font-bold text-lg">→</span>
+                            </div>
+                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
+                                <div>
+                                    <p className="text-gray-500 mb-2">April 30, 2024</p>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Heaca Partners with Global
+                                        Organizations for Better Health Policies</h3>
+                                    <p className="text-gray-700">Read about our new partnerships aimed at developing and
+                                        implementing effective health policies worldwide.</p>
                                 </div>
                                 <span className="text-orange-500 font-bold text-lg">→</span>
                             </div>
@@ -142,19 +161,6 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Join Our Team Section */}
-                <section className="join-team-section py-32 bg-gray-50">
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Join Our Team</h2>
-                        <p className="text-lg text-gray-700 mb-6">
-                            Heaca is always on the lookout for talented professionals. Explore our career opportunities.
-                        </p>
-                        <button
-                            className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full hover:bg-orange-600">Apply
-                            Now
-                        </button>
-                    </div>
-                </section>
 
                 {/* Contact Us Section */}
                 <section className="contact-us-section py-32 bg-white">
