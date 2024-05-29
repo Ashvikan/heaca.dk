@@ -14,7 +14,7 @@ const About = () => {
                             We specialize in fostering healthier and more productive work environments through tailored health promotion solutions. We collaborate with businesses of all sizes and industries to develop and implement transformative health policies.
                         </p>
                         <div className="flex justify-center">
-                            <span className="h-1 w-20 bg-orange-500 block"></span>
+                            <span className="h-1 w-20 bg-red-500 block"></span>
                         </div>
                     </div>
                 </section>

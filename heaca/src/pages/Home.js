@@ -14,7 +14,7 @@ const Home = () => {
                             At the forefront of workplace
                         </h1>
                         <div className="flex justify-start mb-4">
-                            <span className="h-1 w-16 bg-orange-500 block"></span>
+                            <span className="h-1 w-16 bg-red-500 block"></span>
                         </div>
                         <p className="text-lg text-gray-700 mb-12 max-w-2xl">
                             Heaca specializes in helping companies create healthier and more productive work environments through tailored health-promoting solutions. We collaborate with businesses of all sizes and industries, offering expert advice in the development and implementation of health policies.                        </p>
@@ -25,7 +25,7 @@ const Home = () => {
                 <section className="curiosity-section py-32 bg-gray-50">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
-                            <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Changing the
+                            <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Changing the
                                 world</h2>
                             <h3 className="text-3xl font-bold text-gray-900 mb-4">Curiosity creates transformation</h3>
                             <p className="text-lg text-gray-700 mb-12">
@@ -49,7 +49,7 @@ const Home = () => {
                 {/* Services Section */}
                 <section className="services-section py-32 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Our Services</h2>
+                        <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Policies</h3>
@@ -57,7 +57,7 @@ const Home = () => {
                                     specialize in helping companies develop and implement tailored health policies that
                                     promote well-being and efficiency in the workplace.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
@@ -66,7 +66,7 @@ const Home = () => {
                                     essential health services for businesses, including health insurance and vaccination
                                     programs.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
@@ -75,7 +75,7 @@ const Home = () => {
                                 <p className="text-gray-700 mb-4">We provide thorough health assessments to ensure your
                                     employees' well-being and identify areas for improvement.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Home = () => {
                                     safety, both in everyday life and during business trips. We offer advice on seasonal
                                     vaccines, travel vaccines, and more.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
@@ -96,7 +96,7 @@ const Home = () => {
                                     international assignments with thorough health checks and advice on necessary
                                     vaccinations and health precautions.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
@@ -105,7 +105,7 @@ const Home = () => {
                                     that your employees are equipped to handle emergencies effectively, creating a safer
                                     workplace.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ const Home = () => {
 
                 <section className="latest-news-section py-32 bg-gray-50">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-xl font-bold text-orange-500 mb-4 uppercase tracking-wide">Latest Articles &
+                        <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Latest Articles &
                             Updates</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
@@ -125,7 +125,7 @@ const Home = () => {
                                     <p className="text-gray-700">Discover how our new health evaluation program is
                                         designed to boost employee well-being and productivity.</p>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
+                                <span className="text-red-500 font-bold text-lg">→</span>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
                                 <div>
@@ -135,7 +135,7 @@ const Home = () => {
                                     <p className="text-gray-700">Explore Heaca's contributions to the EHDS for seamless
                                         and secure health data sharing across Europe.</p>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
+                                <span className="text-red-500 font-bold text-lg">→</span>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
                                 <div>
@@ -145,7 +145,7 @@ const Home = () => {
                                     <p className="text-gray-700">Learn about the latest innovations in our wellness
                                         programs aimed at enhancing employee health and reducing absenteeism.</p>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
+                                <span className="text-red-500 font-bold text-lg">→</span>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
                                 <div>
@@ -155,7 +155,7 @@ const Home = () => {
                                     <p className="text-gray-700">Read about our new partnerships aimed at developing and
                                         implementing effective health policies worldwide.</p>
                                 </div>
-                                <span className="text-orange-500 font-bold text-lg">→</span>
+                                <span className="text-red-500 font-bold text-lg">→</span>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ const Home = () => {
                             workplace.
                         </p>
                         <button
-                            className="bg-orange-500 text-white font-bold py-2 px-4 rounded-full hover:bg-orange-600">Get
+                            className="bg-red-500 text-white font-bold py-2 px-4 rounded-full hover:bg-red-600">Get
                             in Touch
                         </button>
                     </div>

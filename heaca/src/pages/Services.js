@@ -14,7 +14,7 @@ const Services = () => {
                             We provide a range of services designed to improve health and productivity in the workplace.
                         </p>
                         <div className="flex justify-center">
-                            <span className="h-1 w-20 bg-orange-500 block"></span>
+                            <span className="h-1 w-20 bg-red-500 block"></span>
                         </div>
                     </div>
                 </section>
@@ -26,21 +26,21 @@ const Services = () => {
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Assessments</h3>
                                 <p className="text-gray-700 mb-4">Comprehensive health assessments for employees to identify and address health risks.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Workplace Wellness Programs</h3>
                                 <p className="text-gray-700 mb-4">Tailored wellness programs to promote healthy behaviors and improve overall well-being.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                             <div className="bg-white p-6 rounded-lg shadow-lg">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Education Workshops</h3>
                                 <p className="text-gray-700 mb-4">Interactive workshops to educate employees on various health topics and promote a healthier lifestyle.</p>
                                 <div className="flex justify-end">
-                                    <span className="text-orange-500 font-bold text-lg">→</span>
+                                    <span className="text-red-500 font-bold text-lg">→</span>
                                 </div>
                             </div>
                         </div>

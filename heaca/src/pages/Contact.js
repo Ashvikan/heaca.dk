@@ -26,7 +26,7 @@ const Contact = () => {
                                 <label className="block text-left mb-2">Message:</label>
                                 <textarea className="w-full p-4 border border-gray-300 rounded" rows="5"></textarea>
                             </div>
-                            <button type="submit" className="w-full py-4 bg-orange-500 text-white font-bold rounded-lg hover:bg-orange-600">Submit</button>
+                            <button type="submit" className="w-full py-4 bg-red-500 text-white font-bold rounded-lg hover:bg-red-600">Submit</button>
                         </form>
                     </div>
                 </section>
@@ -40,7 +40,7 @@ const Contact = () => {
                         </div>
                         <div className="text-center md:text-right">
                             <h2 className="text-2xl font-bold mb-2">Wanna join the team?</h2>
-                            <p className="text-gray-400">See open positions and much more <a href="#" className="text-orange-500 underline">here</a>.</p>
+                            <p className="text-gray-400">See open positions and much more <a href="#" className="text-red-500 underline">here</a>.</p>
                         </div>
                     </div>
                     <div className="mt-8 border-t border-gray-700 pt-8 text-gray-400 text-center md:text-left">
