@@ -2,11 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-Regular-BF642a2ebfe9ff0.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-Bold-BF642a2ec04a3ad.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-Light-BF642a2ebf8fe16.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-LightItalic-BF642a2ec047438.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-Medium-BF642a2ebfeab7c.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-MediumItalic-BF642a2ec043436.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-RegularItalic-BF642a2ec033edb.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-Semibold-BF642a2ebf682d9.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Touche';
+  src: url('fonts/Touche-SemiboldItalic-BF642a2ec0356a2.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  @apply font-sans;
+  font-family: 'Touche', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,4 +76,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@keyframes gradientScroll {
+  0% {
+    background-color: #FFFFFF;
+  }
+  25% {
+    background-color: #e6e8ec;
+  }
+  50% {
+    background-color: #d6d8dc;
+  }
+  75% {
+    background-color: #e6e8ec;
+  }
+  100% {
+    background-color: #f6f8fc;
+  }
+}
+
+.hero-background {
+  background: linear-gradient(135deg, #f6f8fc, #ffffff);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  animation: gradientScroll 10s ease infinite;
 }
