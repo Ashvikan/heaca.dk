@@ -1,11 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Home = () => {
     return (
         <>
-            <Navbar />
             <main className="bg-white">
                 {/* Hero Section */}
                 <section className="hero-section py-48 bg-white">
@@ -177,7 +175,6 @@ const Home = () => {
                     </div>
                 </section>
             </main>
-            <Footer/>
         </>
     );
 };
