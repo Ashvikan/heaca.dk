@@ -30,6 +30,7 @@ const Contact = () => {
                     </form>
                 </section>
             </main>
+            <Footer/>
         </>
     );
 };
