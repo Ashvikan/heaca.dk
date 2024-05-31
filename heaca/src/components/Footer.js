@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-wrap justify-between">
                     <div className="w-full md:w-1/3 mb-8 md:mb-0">
-                        <img className="site-logo" src="/path/to/logo.png" alt="Heaca Logo" />
+                        <img className="site-logo" src="/Heaca.dk.png" alt="Heaca Logo" />
                         <h2 className="text-2xl font-bold mt-4">Let’s change the world together</h2>
                     </div>
                     <div className="w-full md:w-1/3 mb-8 md:mb-0">
