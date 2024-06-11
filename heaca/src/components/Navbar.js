@@ -45,6 +45,9 @@ const Navbar = () => {
                     <Link to="/services" className="text-gray-700 hover:text-gray-900">
                         Services
                     </Link>
+                    <Link to="/international" className="text-gray-700 hover:text-gray-900">
+                        International
+                    </Link>
                     <Link to="/contact" className="text-gray-700 hover:text-gray-900">
                         Contact
                     </Link>
@@ -75,6 +78,9 @@ const Navbar = () => {
                         </Link>
                         <Link to="/services" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
                             Services
+                        </Link>
+                        <Link to="/international" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
+                            International
                         </Link>
                         <Link to="/contact" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
                             Contact

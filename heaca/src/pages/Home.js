@@ -1,11 +1,21 @@
 import React from 'react';
+import useScrollBackground from '../hooks/useScrollBackground';
+import '../pageCss/Home.css';
 
 const Home = () => {
+    const sectionsConfig = [
+        { id: 'hero', bgcolor: 'white' },
+        { id: 'curiosity', bgcolor: '#fdd' },
+        { id: 'services', bgcolor: 'white' },
+    ];
+
+    useScrollBackground(sectionsConfig);
+
     return (
         <>
             <main className="bg-white">
                 {/* Hero Section */}
-                <section className="hero-section py-48 bg-white">
+                <section id="hero" className="hero-section py-48 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h1 className="text-5xl font-bold text-gray-900 mb-6">
                             At the forefront of workplace
@@ -19,7 +29,7 @@ const Home = () => {
                 </section>
 
                 {/* Curiosity Section */}
-                <section className="curiosity-section py-32 bg-gray-50">
+                <section id="curiosity" className="curiosity-section py-32 bg-gray-50">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Changing the
@@ -44,7 +54,7 @@ const Home = () => {
                 </section>
 
                 {/* Services Section */}
-                <section className="services-section py-32 bg-white">
+                <section id="services" className="services-section py-32 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -109,7 +119,7 @@ const Home = () => {
                     </div>
             </section>
 
-                <section className="latest-news-section py-32 bg-gray-50">
+                <section id="latestnews" className="latest-news-section py-32 bg-gray-50">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Latest Articles &
                             Updates</h2>
