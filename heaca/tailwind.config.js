@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         'custom-white': '#ffffff',
-        'custom-red': '#DF2020',
+        'custom-red': '#981818',
         'custom-footer': '#2C3A42',
       },
     },
