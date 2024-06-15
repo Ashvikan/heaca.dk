@@ -4,18 +4,20 @@ import '../pageCss/Home.css';
 
 const Home = () => {
     const sectionsConfig = [
-        { id: 'hero', bgcolor: 'white' },
-        { id: 'curiosity', bgcolor: '#fdd' },
-        { id: 'services', bgcolor: 'white' },
+        { id: 'hero', color: '#ffffff' },
+        { id: 'curiosity', color: '#ffffff' },
+        { id: 'services', color: 'rgb(152,24,24)' },
+        { id: 'latestnews', color: '#ffffff' },
+        { id: 'contact', color: '#ffffff' },
     ];
 
     useScrollBackground(sectionsConfig);
 
     return (
         <>
-            <main className="bg-white">
+            <main>
                 {/* Hero Section */}
-                <section id="hero" className="hero-section py-48 bg-white">
+                <section id="hero" className="hero-section py-48 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h1 className="text-5xl font-bold text-gray-900 mb-6">
                             At the forefront of workplace
@@ -24,12 +26,13 @@ const Home = () => {
                             <span className="h-1 w-16 bg-red-500 block"></span>
                         </div>
                         <p className="text-lg text-gray-700 mb-12 max-w-2xl">
-                            Heaca specializes in helping companies create healthier and more productive work environments through tailored health-promoting solutions. We collaborate with businesses of all sizes and industries, offering expert advice in the development and implementation of health policies.                        </p>
+                            Heaca specializes in helping companies create healthier and more productive work environments through tailored health-promoting solutions. We collaborate with businesses of all sizes and industries, offering expert advice in the development and implementation of health policies.
+                        </p>
                     </div>
                 </section>
 
                 {/* Curiosity Section */}
-                <section id="curiosity" className="curiosity-section py-32 bg-gray-50">
+                <section id="curiosity" className="curiosity-section py-32 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Changing the
@@ -54,9 +57,9 @@ const Home = () => {
                 </section>
 
                 {/* Services Section */}
-                <section id="services" className="services-section py-32 bg-white">
+                <section id="services" className="services-section py-32 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Our Services</h2>
+                        <h2 className="text-xl font-bold text-white mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Policies</h3>
@@ -117,9 +120,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-            </section>
+                </section>
 
-                <section id="latestnews" className="latest-news-section py-32 bg-gray-50">
+                <section id="latestnews" className="latest-news-section py-32 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Latest Articles &
                             Updates</h2>
@@ -170,7 +173,7 @@ const Home = () => {
 
 
                 {/* Contact Us Section */}
-                <section className="contact-us-section py-32 bg-white">
+                <section id="contact" className="contact-us-section py-32 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
                         <p className="text-lg text-gray-700 mb-6">
