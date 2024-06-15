@@ -4,11 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        darkBlue: '#2B2D42',
-        grayBlue: '#8D99AE',
-        lightGray: '#EDF2F4',
-        darkRed: '#D80032',
+      backgroundColor: {
+        'custom-white': '#ffffff',
+        'custom-red': '#DF2020',
+        'custom-footer': '#2C3A42',
       },
     },
   },
