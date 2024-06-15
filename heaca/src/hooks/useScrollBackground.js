@@ -2,21 +2,25 @@ import { useEffect } from 'react';
 
 const useScrollBackground = (sectionsConfig) => {
     useEffect(() => {
-        const sections = document.querySelectorAll(sectionsConfig.map(({ id }) => `#${id}`).join(', '));
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    document.body.style.backgroundColor = entry.target.dataset.bgcolor;
+        const handleScroll = () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section) => {
+                const rect = section.getBoundingClientRect();
+                const isInViewport = rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+                if (isInViewport) {
+                    const sectionConfig = sectionsConfig.find((config) => config.id === section.id);
+                    if (sectionConfig) {
+                        document.body.style.backgroundColor = sectionConfig.color;
+                    }
                 }
             });
-        }, {
-            threshold: 0.5 // Adjust based on when you want to trigger the change
-        });
+        };
 
-        sections.forEach(section => observer.observe(section));
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Initial call to set the background based on the current scroll position
 
         return () => {
-            sections.forEach(section => observer.unobserve(section));
+            window.removeEventListener('scroll', handleScroll);
         };
     }, [sectionsConfig]);
 };
