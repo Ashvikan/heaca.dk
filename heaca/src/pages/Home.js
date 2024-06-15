@@ -6,7 +6,7 @@ const Home = () => {
     const sectionsConfig = [
         { id: 'hero', color: '#ffffff' },
         { id: 'curiosity', color: '#ffffff' },
-        { id: 'services', color: 'rgb(152,24,24)' },
+        { id: 'services', color: '#981818' },
         { id: 'latestnews', color: '#ffffff' },
         { id: 'contact', color: '#ffffff' },
     ];
@@ -18,7 +18,7 @@ const Home = () => {
             <main>
                 {/* Hero Section */}
                 <section id="hero" className="hero-section py-48 section">
-                    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-20">
                         <h1 className="text-5xl font-bold text-gray-900 mb-6">
                             At the forefront of workplace
                         </h1>
@@ -29,10 +29,11 @@ const Home = () => {
                             Heaca specializes in helping companies create healthier and more productive work environments through tailored health-promoting solutions. We collaborate with businesses of all sizes and industries, offering expert advice in the development and implementation of health policies.
                         </p>
                     </div>
+                    <img src="/images/Figur.png" alt="Background Figure" className="figure-overlay" />
                 </section>
 
                 {/* Curiosity Section */}
-                <section id="curiosity" className="curiosity-section py-32 section">
+                <section id="curiosity" className="curiosity-section py-44 section lg:pt-60 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Changing the
@@ -45,12 +46,12 @@ const Home = () => {
                                 precision and insight, ensuring our clients receive the best possible support.
                             </p>
                         </div>
-                        <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
+                        <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
                             <div className="relative">
                                 <img src="/images/1.jpg" alt="Transformation"
-                                     className="rounded-lg shadow-lg w-full max-w-xxl"/>
+                                     className="rounded-lg shadow-lg w-full max-w-xxl relative lg:mt-8"/>
                                 <img src="/images/3.jpg" alt="Secondary"
-                                     className="rounded-lg shadow-lg w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-4" />
+                                     className="rounded-lg shadow-lg w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-12 lg:translate-y-16"/>
                             </div>
                         </div>
                     </div>
