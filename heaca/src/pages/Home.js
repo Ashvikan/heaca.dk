@@ -33,7 +33,7 @@ const Home = () => {
                 </section>
 
                 {/* Curiosity Section */}
-                <section id="curiosity" className="curiosity-section py-44 section lg:pt-60 section">
+                <section id="curiosity" className="curiosity-section py-28 section lg:pt-60 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Changing the
