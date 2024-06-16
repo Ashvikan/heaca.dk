@@ -7,7 +7,9 @@ module.exports = {
       backgroundColor: {
         'custom-white': '#ffffff',
         'custom-red': '#981818',
-        'custom-footer': '#2C3A42',
+        'custom-footer': '#002626',
+        'custom-metal': '#292F36',
+
       },
     },
   },
