@@ -23,7 +23,7 @@ const Contact = () => {
                                 <label className="block text-left mb-2">Message:</label>
                                 <textarea className="w-full p-4 border border-gray-300 rounded" rows="5"></textarea>
                             </div>
-                            <button type="submit" className="w-full py-4 bg-red-500 text-white font-bold rounded-lg hover:bg-red-600">Submit</button>
+                            <button type="submit" className="w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-600">Submit</button>
                         </form>
                     </div>
                 </section>
