@@ -2,8 +2,18 @@ import React from 'react';
 import '../pageCss/International.css';
 import useScrollBackground from '../hooks/useScrollBackground';
 
+const sectionsConfig = [
+    { id: 'about-us', color: '#ffffff' },
+    { id: 'health-support', color: 'rgb(248, 249, 250)' },
+    { id: 'health-insurance', color: '#ffffff' },
+    { id: 'international-support', color: 'rgb(248, 249, 250)' },
+    { id: 'why-choose-us', color: '#ffffff' },
+    { id: 'contact', color: 'rgb(248, 249, 250)' },
+];
 
 const International = () => {
+    useScrollBackground(sectionsConfig);
+
     return (
         <main>
             {/* Section 1 */}
