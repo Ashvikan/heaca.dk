@@ -12,11 +12,15 @@ const Contact = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label className="block text-left mb-2">Name:</label>
-                                    <input type="text" className="w-full p-4 border border-gray-300 rounded" />
+                                    <input type="text" className="w-full p-4 border border-gray-300 rounded"/>
                                 </div>
                                 <div>
                                     <label className="block text-left mb-2">Email:</label>
-                                    <input type="email" className="w-full p-4 border border-gray-300 rounded" />
+                                    <input type="email" className="w-full p-4 border border-gray-300 rounded"/>
+                                </div>
+                                <div>
+                                    <label className="block text-left mb-2">Capacity:</label>
+                                    <input type="email" className="w-full p-4 border border-gray-300 rounded"/>
                                 </div>
                             </div>
                             <div>
