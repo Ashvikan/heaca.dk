@@ -6,32 +6,36 @@ body {
 
 .section {
     transition: background-color 0.6s ease-in-out;
-    background: transparent; /* Ensure sections have a transparent background */
-    position: relative; /* Ensure the parent has positioning context */
-
+    background: transparent;
+    position: relative;
+}
+.overflow-wrapper {
+    overflow-y: hidden;
 }
 
 .hero-section, .curiosity-section, .services-section, .latest-news-section, .contact-us-section {
-    background: transparent; /* Remove any background color from the sections */
+    background: transparent;
 }
 
 .figure-overlay {
     position: absolute;
     top: 20%;
     right: -10%;
-    z-index: -100;
-    max-width: 800px; /* Default for smaller screens */
-    opacity: 0.9; /* Adjust opacity if needed */
+    z-index: -1;
+    max-width: 800px;
+    opacity: 0.9;
     transition: max-width 0.3s ease-in-out;
+    clip-path: inset(0 0 0 0); /* This ensures it stays within the viewport width */
+
 }
 
 
 @media (min-width: 1024px) {
     .figure-overlay {
-        max-width: 1100px; /* Max width for larger screens */
+        max-width: 1100px;
     }
 
     .hero-section .container {
-        margin-left: 10%; /* Move the text to the right */
+        margin-left: 10%;
     }
 }
