@@ -19,7 +19,7 @@ const About = () => {
                 {/* About Us Section */}
                 <section id="about-us" className="hero-section py-48 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h1 className="text-5xl font-bold text-gray-900 mb-6">
+                        <h1 className="text-5xl font-normal text-gray-900 mb-6">
                             We are Heaca
                         </h1>
                         <div className="flex justify-start mb-4">
