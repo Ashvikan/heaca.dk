@@ -28,7 +28,8 @@ const Home = () => {
                             <span className="h-1 w-16 bg-red-600 block"></span>
                         </div>
                         <p className="text-lg text-gray-700 mb-12 max-w-2xl">
-                            Heaca specializes in helping companies create healthier and more productive work environments through tailored health-promoting solutions. We collaborate with businesses of all sizes and industries, offering expert advice in the development and implementation of health policies.
+                            At Heaca, we deliver strategic health solutions that enhance employee well-being and align with your business objectives. Our services are designed to reduce absenteeism, ensure workforce continuity, and optimize healthcare investments.
+
                         </p>
                     </div>
                     <img src="/images/Figur.png" alt="Background Figure" className="figure-overlay" />
@@ -64,15 +65,7 @@ const Home = () => {
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-white mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Policies</h3>
-                                <p className="text-gray-700 mb-4">Creating a Health-Promoting Workplace. At Heaca, we
-                                    specialize in helping companies develop and implement tailored health policies that
-                                    promote well-being and efficiency in the workplace.</p>
-                                <div className="flex justify-end">
-                                    <span className="text-red-600 font-bold text-lg">→</span>
-                                </div>
-                            </div>
+
                             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Services</h3>
                                 <p className="text-gray-700 mb-4">Heaca offers professional advice and guidance on
