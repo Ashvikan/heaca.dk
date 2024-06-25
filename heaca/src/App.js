@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import International from "./pages/International";
+import International from './pages/International';
 
 const App = () => {
     return (
