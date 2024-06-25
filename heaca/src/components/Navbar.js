@@ -28,7 +28,7 @@ const Navbar = () => {
     };
 
     return (
-        <header className={`fixed w-full z-50 transition-transform duration-300 ${isAtTop ? 'bg-transparent' : 'bg-white'} ${isAtTop ? 'shadow-none border-none' : 'shadow-md border-b'} ${isScrollingUp ? 'transform translate-y-0' : 'transform -translate-y-full'}`}>
+        <header className={`fixed w-full z-50 transition-transform duration-300 ${isAtTop ? 'bg-transparent' : 'bg-white'} ${isAtTop ? 'shadow-none border' : 'shadow-md border-b'} ${isScrollingUp ? 'transform translate-y-0' : 'transform -translate-y-full'}`}>
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
                 <div className="flex-shrink-0">
                     <Link to="/">
