@@ -24,7 +24,7 @@
   "eslintConfig": {
     "extends": "react-app",
     "rules": {
-      "all": "off"
+      "jsx-a11y/img-redundant-alt": "off"
     }
   },
   "browserslist": {
