@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Change this to your default branch if it's not main
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '18'  # Use the version of Node.js specified in your project
 
       - name: Install dependencies
         run: npm install
@@ -25,6 +25,8 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm install -g gh-pages
+          npm run deploy
