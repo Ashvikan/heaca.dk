@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/heaca.dk/static/css/main.5ee88ecb.css",
+    "main.js": "/heaca.dk/static/js/main.913f4b05.js",
+    "static/js/453.d94bad1b.chunk.js": "/heaca.dk/static/js/453.d94bad1b.chunk.js",
+    "static/media/Touche-SemiboldItalic-BF642a2ec0356a2.otf": "/heaca.dk/static/media/Touche-SemiboldItalic-BF642a2ec0356a2.f1cf31816863b945a98f.otf",
+    "static/media/Touche-MediumItalic-BF642a2ec043436.otf": "/heaca.dk/static/media/Touche-MediumItalic-BF642a2ec043436.b1dd90622e35029ffff3.otf",
+    "static/media/Touche-RegularItalic-BF642a2ec033edb.otf": "/heaca.dk/static/media/Touche-RegularItalic-BF642a2ec033edb.6829413a42306bf8ab88.otf",
+    "static/media/Touche-LightItalic-BF642a2ec047438.otf": "/heaca.dk/static/media/Touche-LightItalic-BF642a2ec047438.2d844abec71878e8d1c9.otf",
+    "static/media/Touche-Semibold-BF642a2ebf682d9.otf": "/heaca.dk/static/media/Touche-Semibold-BF642a2ebf682d9.aeea2d9e76ac68d9a168.otf",
+    "static/media/Touche-Medium-BF642a2ebfeab7c.otf": "/heaca.dk/static/media/Touche-Medium-BF642a2ebfeab7c.c24c44c8e45f10feb9d6.otf",
+    "static/media/Touche-Bold-BF642a2ec04a3ad.otf": "/heaca.dk/static/media/Touche-Bold-BF642a2ec04a3ad.6bbefb3522a5d0ae29f4.otf",
+    "static/media/Touche-Regular-BF642a2ebfe9ff0.otf": "/heaca.dk/static/media/Touche-Regular-BF642a2ebfe9ff0.b8e88043195297704155.otf",
+    "static/media/Touche-Light-BF642a2ebf8fe16.otf": "/heaca.dk/static/media/Touche-Light-BF642a2ebf8fe16.a19c1d0f2f7a0e1108a3.otf",
+    "index.html": "/heaca.dk/index.html",
+    "main.5ee88ecb.css.map": "/heaca.dk/static/css/main.5ee88ecb.css.map",
+    "main.913f4b05.js.map": "/heaca.dk/static/js/main.913f4b05.js.map",
+    "453.d94bad1b.chunk.js.map": "/heaca.dk/static/js/453.d94bad1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ee88ecb.css",
+    "static/js/main.913f4b05.js"
+  ]
+}
