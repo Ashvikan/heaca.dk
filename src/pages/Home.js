@@ -7,7 +7,7 @@ import '../pageCss/Home.css';
 const Home = () => {
     const sectionsConfig = [
         { id: 'hero', color: '#ffffff' },
-        { id: 'curiosity', color: '#ffffff' },
+        { id: 'curiosity', color: '#FBEEF1' },
         { id: 'services', color: '#981818' },
         { id: 'latestnews', color: '#ffffff' },
         { id: 'contact', color: '#ffffff' },

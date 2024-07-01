@@ -4,11 +4,11 @@ import useScrollBackground from '../hooks/useScrollBackground';
 
 const sectionsConfig = [
     { id: 'about-us', color: '#ffffff' },
-    { id: 'health-support', color: 'rgb(248, 249, 250)' },
+    { id: 'health-support', color: '#FBEEF1' },
     { id: 'health-insurance', color: '#ffffff' },
-    { id: 'international-support', color: 'rgb(248, 249, 250)' },
-    { id: 'why-choose-us', color: '#ffffff' },
-    { id: 'contact', color: 'rgb(248, 249, 250)' },
+    { id: 'international-support', color: '#ffffff' },
+    { id: 'why-choose-us', color: '#FBEEF1' },
+    { id: 'contact', color: '#ffffff' },
 ];
 
 const International = () => {

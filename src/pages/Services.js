@@ -5,11 +5,11 @@ import '../pageCss/Services.css';
 const Services = () => {
     const sectionsConfig = [
         { id: 'intro', color: '#ffffff' },
-        { id: 'health-insurance', color: '#ffffff' },
+        { id: 'health-insurance', color: '#FBEEF1' },
         { id: 'vaccination-advisory', color: '#ffffff' },
         { id: 'health-assessments', color: '#ffffff' },
         { id: 'international-health-readiness', color: '#ffffff' },
-        { id: 'global-healthcare-partner', color: '#ffffff' },
+        { id: 'global-healthcare-partner', color: '#FBEEF1' },
         { id: 'talent-acquisition', color: '#ffffff' },
         { id: 'tenant-matching', color: '#ffffff' }
     ];
