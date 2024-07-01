@@ -80,7 +80,7 @@ const Navbar = () => {
                             International
                         </Link>
                         <Link to="/contact" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
-                            Contact
+                            Contact SUI
                         </Link>
                     </nav>
                 </div>
