@@ -43,7 +43,7 @@ const Contact = () => {
             <main className="p-4 text-center bg-gray-50">
                 <section className="py-32 bg-white">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h1 className="text-4xl font-normal mb-6">We would love to hear from you</h1>
+                        <h1 className="text-4xl font-bold mb-6">We would love to hear from you</h1>
                         <p className="text-lg mb-12">If you have any questions or need further information, feel free to contact us.</p>
                         <form
                             onSubmit={handleSubmit}
