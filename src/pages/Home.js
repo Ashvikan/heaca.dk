@@ -29,10 +29,9 @@ const Home = () => {
                         </div>
                         <p className="text-lg text-gray-700 mb-12 max-w-2xl">
                             At Heaca, we deliver strategic health solutions that enhance employee well-being and align with your business objectives. Our services are designed to reduce absenteeism, ensure workforce continuity, and optimize healthcare investments.
-
                         </p>
                     </div>
-                    <img src="/images/Figur.png" alt="Background Figure" className="figure-overlay" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Figur.png`} alt="Background Figure" className="figure-overlay" />
                 </section>
 
                 {/* Curiosity Section */}
@@ -51,9 +50,9 @@ const Home = () => {
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
                             <div className="relative">
-                                <img src="/images/1.jpg" alt="Transformation"
+                                <img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Transformation"
                                      className="rounded-lg shadow-lg w-full max-w-xxl relative lg:mt-8"/>
-                                <img src="/images/3.jpg" alt="Secondary"
+                                <img src={`${process.env.PUBLIC_URL}/images/3.jpg`} alt="Secondary"
                                      className="rounded-lg shadow-lg w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-12 lg:translate-y-16"/>
                             </div>
                         </div>

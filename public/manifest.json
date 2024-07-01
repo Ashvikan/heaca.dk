@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "images/HeacaLogo.png",
-      "type": "image/png",
+      "src": "images/favicon.ico",
+      "type": "image/x-icon",
       "sizes": "192x192"
     },
     {
-      "src": "images/HeacaLogo.png",
+      "src": "images/favicon-96x196.png",
       "type": "image/png",
       "sizes": "512x512"
     }
