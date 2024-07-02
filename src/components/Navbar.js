@@ -25,6 +25,7 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+        document.body.classList.toggle('fixed-menu-open', !isMenuOpen); // Toggle body scroll
     };
 
     return (
@@ -58,7 +59,7 @@ const Navbar = () => {
                 </div>
             </div>
             {isMenuOpen && (
-                <div className="fixed inset-0 bg-white z-40 flex flex-col items-center justify-center h-full w-full">
+                <div className="fixed-menu">
                     <div className="absolute top-4 right-4">
                         <button onClick={toggleMenu} className="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-gray-900">
                             <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -66,10 +67,7 @@ const Navbar = () => {
                             </svg>
                         </button>
                     </div>
-                    <nav className="space-y-8 text-center">
-                        <Link to="/" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
-                            Home
-                        </Link>
+                    <nav className="flex flex-col items-center space-y-8">
                         <Link to="/about" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
                             About
                         </Link>
@@ -80,7 +78,7 @@ const Navbar = () => {
                             International
                         </Link>
                         <Link to="/contact" className="text-2xl text-gray-900 hover:text-gray-700" onClick={toggleMenu}>
-                            Contact SUI
+                            Contact
                         </Link>
                     </nav>
                 </div>
