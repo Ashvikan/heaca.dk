@@ -6,8 +6,8 @@ import '../pageCss/Home.css';
 
 const Home = () => {
     const sectionsConfig = [
-        { id: 'hero', color: '#ffffff' },
-        { id: 'curiosity', color: '#FBEEF1' },
+        { id: 'hero', color: '#fbf8fa' },
+        { id: 'curiosity', color: '#ffffff' },
         { id: 'services', color: '#981818' },
         { id: 'latestnews', color: '#ffffff' },
         { id: 'contact', color: '#ffffff' },
@@ -50,10 +50,10 @@ const Home = () => {
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
                             <div className="relative">
-                                <img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Transformation"
-                                     className="rounded-lg shadow-lg w-full max-w-xxl relative lg:mt-8"/>
+                                <img src={`${process.env.PUBLIC_URL}/images/Prag.png`} alt="Transformation"
+                                     className="rounded-lg shadow-2xl w-full max-w-md relative lg:mt-8"/>
                                 <img src={`${process.env.PUBLIC_URL}/images/3.jpg`} alt="Secondary"
-                                     className="rounded-lg shadow-lg w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-12 lg:translate-y-16"/>
+                                     className="rounded-lg shadow-2xl w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-12 lg:translate-y-16"/>
                             </div>
                         </div>
                     </div>
@@ -65,64 +65,63 @@ const Home = () => {
                         <h2 className="text-xl font-bold text-white mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Services</h3>
-                                <p className="text-gray-700 mb-4">Heaca offers professional advice and guidance on
-                                    essential health services for businesses, including health insurance and vaccination
-                                    programs.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Talent Acquisition</h3>
+                                <p className="text-gray-700 mb-4">Find and hire the best talent for your organization through our comprehensive recruitment solutions tailored to your unique needs.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
                             </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Comprehensive Health
-                                    Evaluations</h3>
-                                <p className="text-gray-700 mb-4">We provide thorough health assessments to ensure your
-                                    employees' well-being and identify areas for improvement.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Insurance Strategy</h3>
+                                <p className="text-gray-700 mb-4">Develop effective health insurance strategies to optimize coverage, reduce costs, and enhance employee satisfaction.</p>
+                                <div className="flex justify-end">
+                                    <span className="text-red-600 font-bold text-lg">→</span>
+                                </div>
+                            </div>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Vaccination Program Advisory</h3>
+                                <p className="text-gray-700 mb-4">Receive expert advice on vaccination programs to protect your workforce and ensure compliance with health regulations and travel requirements.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
                             </div>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Vaccination Programs</h3>
-                                <p className="text-gray-700 mb-4">Vaccinations are crucial for employee health and
-                                    safety, both in everyday life and during business trips. We offer advice on seasonal
-                                    vaccines, travel vaccines, and more.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Global Healthcare Partner
+                                    Service</h3>
+                                <p className="text-gray-700 mb-4">Collaborate with leading global healthcare providers to ensure seamless and high-quality healthcare solutions for your international operations.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
                             </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Forensic Travel and Deployment
-                                    Advice</h3>
-                                <p className="text-gray-700 mb-4">We ensure that employees are well-prepared for
-                                    international assignments with thorough health checks and advice on necessary
-                                    vaccinations and health precautions.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Tenant Matching</h3>
+                                <p className="text-gray-700 mb-4">Connect with ideal tenants for your property through our specialized tenant matching services, ensuring a perfect fit for your rental space.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
                             </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">First Aid Training</h3>
-                                <p className="text-gray-700 mb-4">Our comprehensive first aid training courses ensure
-                                    that your employees are equipped to handle emergencies effectively, creating a safer
-                                    workplace.</p>
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Assessment</h3>
+                                <p className="text-gray-700 mb-4">Conduct thorough health assessments to identify potential health risks and create personalized wellness plans for improved employee health.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
 
+                {/*
                 <section id="latestnews" className="latest-news-section py-32 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-red-600 mb-4 uppercase tracking-wide">Latest Articles &
                             Updates</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
+                            <div className="bg-white p-6 rounded-lg shadow-2xl flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">May 15, 2024</p>
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Heaca Launches New
@@ -132,7 +131,7 @@ const Home = () => {
                                 </div>
                                 <span className="text-red-600 font-bold text-lg">→</span>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
+                            <div className="bg-white p-6 rounded-lg shadow-2xl flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">May 08, 2024</p>
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Heaca's Role in the European
@@ -142,7 +141,7 @@ const Home = () => {
                                 </div>
                                 <span className="text-red-600 font-bold text-lg">→</span>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
+                            <div className="bg-white p-6 rounded-lg shadow-2xl flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">May 07, 2024</p>
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">New Innovations in Corporate
@@ -152,7 +151,7 @@ const Home = () => {
                                 </div>
                                 <span className="text-red-600 font-bold text-lg">→</span>
                             </div>
-                            <div className="bg-white p-6 rounded-lg shadow-lg flex justify-between items-center">
+                            <div className="bg-white p-6 rounded-lg shadow-2xl flex justify-between items-center">
                                 <div>
                                     <p className="text-gray-500 mb-2">April 30, 2024</p>
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Heaca Partners with Global
@@ -165,7 +164,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-
+                */}
 
                 {/* Contact Us Section */}
                 <section id="contact" className="contact-us-section py-32 section">
