@@ -47,7 +47,7 @@ const Contact = () => {
                         <p className="text-lg mb-12">If you have any questions or need further information, feel free to contact us.</p>
                         <form
                             onSubmit={handleSubmit}
-                            className="bg-white p-8 rounded-lg shadow-lg space-y-6"
+                            className="bg-white p-8 rounded-lg shadow-2xl space-y-6"
                         >
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
