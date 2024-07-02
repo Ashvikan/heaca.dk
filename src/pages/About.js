@@ -17,42 +17,39 @@ const About = () => {
         <>
             <main>
                 {/* About Us Section */}
-                <section id="about-us" className="hero-section py-48 section">
+                <section id="about-us" className="hero-section py-36 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <h1 className="text-5xl font-normal text-gray-900 mb-6">
+                        <h1 className="text-5xl font-bold text-gray-900 mb-6">
                             We are Heaca
                         </h1>
                         <div className="flex justify-start mb-4">
                             <span className="h-1 w-16 bg-red-500 block"></span>
                         </div>
                         <p className="text-lg text-gray-700 mb-12 max-w-2xl">
-                            Heaca specializes in helping companies create healthier and more productive work
-                            environments through tailored health-promoting solutions. We collaborate with businesses of
-                            all sizes and industries, offering expert advice in the development and implementation of
-                            health policies.
+                            At Heaca, we are dedicated to advancing the healthcare sector by helping businesses create healthier, more productive work environments. With a passion for developing innovative health solutions, we partner with companies across all industries to enhance employee well-being and drive the growth of healthcare enterprises.
                         </p>
                     </div>
                     <img src="/images/Figur.png" alt="Background Figure" className="figure-overlay"/>
                 </section>
 
                 {/* Why Choose Us Section */}
-                <section id="why-choose-us" className="services-section py-32 section">
+                <section id="why-choose-us" className="services-section py-36 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-red-600 mb-4 uppercase tracking-wide">Why Choose Us</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Tailored Approach</h3>
                                 <p className="text-gray-700 mb-4">We believe in tailoring solutions to meet the specific
                                     needs of each company. Our experienced consultants focus on creating measurable and
                                     positive changes in corporate health culture.</p>
                             </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Experienced Consultants</h3>
                                 <p className="text-gray-700 mb-4">Our team consists of experienced consultants in health
                                     promotion and organizational development, ensuring the best advice and strategies
                                     for your company.</p>
                             </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
+                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Result-Oriented</h3>
                                 <p className="text-gray-700 mb-4">Our goal is to create measurable and positive changes
                                     in companies' health culture. We understand that health and well-being are perceived
@@ -64,7 +61,7 @@ const About = () => {
                 </section>
 
                 {/* Our Mission Section */}
-                <section id="mission" className="py-48 section">
+                <section id="mission" className="py-36 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Our Mission</h2>
@@ -76,13 +73,13 @@ const About = () => {
                             </p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                            <img src="/images/1.jpg" alt="Mission Image" className="rounded-lg shadow-lg w-full max-w-xxl" />
+                            <img src="/images/1.jpg" alt="Mission Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />
                         </div>
                     </div>
                 </section>
 
                 {/* Autonomy Section */}
-                <section id="autonomy" className="py-48 section">
+                <section id="autonomy" className="py-36 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Autonomy</h2>
@@ -92,13 +89,13 @@ const About = () => {
                             <p className="text-lg text-gray-700"><span className="font-bold">Purpose-driven:</span> The autonomous behaviour of our employees is guided by a deep sense of purpose and accountability that our customers have come to know and love about us.</p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                            <img src="/images/1.jpg" alt="Autonomy Image" className="rounded-lg shadow-lg w-full max-w-xxl" />
+                            <img src="/images/1.jpg" alt="Autonomy Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />
                         </div>
                     </div>
                 </section>
 
                 {/* Strategic Partner Section */}
-                <section id="strategic-partner" className="py-48 section bg-gray-100">
+                <section id="strategic-partner" className="py-36 section bg-gray-100">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
                             <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Strategic Partner</h2>
@@ -108,14 +105,14 @@ const About = () => {
                             </p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                            <img src="/images/1.jpg" alt="Strategic Partner Image" className="rounded-lg shadow-lg w-full max-w-xxl" />
+                            <img src="/images/1.jpg" alt="Strategic Partner Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />
                         </div>
                     </div>
                 </section>
 
 
                 {/* Our Approach Section */}
-                <section id="our-approach" className="latest-news-section py-32 section">
+                <section id="our-approach" className="latest-news-section py-36 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                         <h2 className="text-xl font-bold text-red-500 mb-4 uppercase tracking-wide">Our Approach</h2>
                         <p className="text-lg text-gray-700 mb-6 max-w-4xl">
