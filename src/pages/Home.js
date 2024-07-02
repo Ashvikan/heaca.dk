@@ -52,8 +52,9 @@ const Home = () => {
                             <div className="relative">
                                 <img src={`${process.env.PUBLIC_URL}/images/Prag.png`} alt="Transformation"
                                      className="rounded-lg shadow-2xl w-full max-w-md relative lg:mt-8"/>
-                                <img src={`${process.env.PUBLIC_URL}/images/3.jpg`} alt="Secondary"
+                                {/*<img src={`${process.env.PUBLIC_URL}/images/3.jpg`} alt="Secondary"
                                      className="rounded-lg shadow-2xl w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-12 lg:translate-y-16"/>
+                                     */}
                             </div>
                         </div>
                     </div>
