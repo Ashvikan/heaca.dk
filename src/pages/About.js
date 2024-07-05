@@ -73,7 +73,7 @@ const About = () => {
                             </p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                            <img src="/images/1.jpg" alt="Mission Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />
+                            {/*<img src="/images/1.jpg" alt="Mission Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />*/}
                         </div>
                     </div>
                 </section>
@@ -89,7 +89,7 @@ const About = () => {
                             <p className="text-lg text-gray-700"><span className="font-bold">Purpose-driven:</span> The autonomous behaviour of our employees is guided by a deep sense of purpose and accountability that our customers have come to know and love about us.</p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                            <img src="/images/1.jpg" alt="Autonomy Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />
+                            {/*<img src="/images/1.jpg" alt="Autonomy Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />*/}
                         </div>
                     </div>
                 </section>
@@ -105,7 +105,7 @@ const About = () => {
                             </p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                            <img src="/images/1.jpg" alt="Strategic Partner Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />
+                            {/* <img src="/images/1.jpg" alt="Strategic Partner Image" className="rounded-lg shadow-2xl w-full max-w-xxl" />*/}
                         </div>
                     </div>
                 </section>

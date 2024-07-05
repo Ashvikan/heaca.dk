@@ -62,8 +62,8 @@ const International = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pr-12 flex justify-center lg:justify-end">
-                        <img src="/images/1.jpg" alt="Health Support"
-                             className="rounded-lg shadow-2xl w-full max-w-md"/>
+                        {/*<img src="/images/1.jpg" alt="Health Support"
+                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
                     </div>
                 </div>
             </section>
@@ -82,8 +82,8 @@ const International = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pr-12 flex justify-center lg:justify-end">
-                        <img src="/images/1.jpg" alt="Health Insurance"
-                             className="rounded-lg shadow-2xl w-full max-w-md"/>
+                        {/*<img src="/images/1.jpg" alt="Health Insurance"
+                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
                     </div>
                 </div>
             </section>
@@ -109,8 +109,8 @@ const International = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pr-12 flex justify-center lg:justify-end">
-                        <img src="/images/1.jpg" alt="International Support"
-                             className="rounded-lg shadow-2xl w-full max-w-md"/>
+                        {/*<img src="/images/1.jpg" alt="International Support"
+                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
                     </div>
                 </div>
             </section>
@@ -139,8 +139,8 @@ const International = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pr-12 flex justify-center lg:justify-end">
-                        <img src="/images/1.jpg" alt="Why Choose Heaca"
-                             className="rounded-lg shadow-2xl w-full max-w-md"/>
+                        {/*<img src="/images/1.jpg" alt="Why Choose Heaca"
+                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
                     </div>
                 </div>
             </section>
