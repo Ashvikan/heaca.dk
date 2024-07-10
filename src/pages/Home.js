@@ -66,51 +66,51 @@ const Home = () => {
                         <h2 className="text-xl font-bold text-white mb-4 uppercase tracking-wide">Our Services</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                            <Link to="/services#talent-acquisition" className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Talent Acquisition</h3>
                                 <p className="text-gray-700 mb-4">Find and hire the best talent for your organization through our comprehensive recruitment solutions tailored to your unique needs.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
-                            </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                            </Link>
+                            <Link to="/services#health-insurance" className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Insurance Strategy</h3>
                                 <p className="text-gray-700 mb-4">Develop effective health insurance strategies to optimize coverage, reduce costs, and enhance employee satisfaction.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
-                            </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                            </Link>
+                            <Link to="/services#vaccination-advisory" className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Vaccination Program Advisory</h3>
                                 <p className="text-gray-700 mb-4">Receive expert advice on vaccination programs to protect your workforce and ensure compliance with health regulations and travel requirements.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                            <Link to="/services#global-healthcare-partner" className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Global Healthcare Partner
-                                    Service</h3>
+                                    Services</h3>
                                 <p className="text-gray-700 mb-4">Collaborate with leading global healthcare providers to ensure seamless and high-quality healthcare solutions for your international operations.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
-                            </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                            </Link>
+                            <Link to="/services#tenant-matching" className="bg-gray-50 p-6 rounded-lg shadow-2xl">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Tenant Matching</h3>
                                 <p className="text-gray-700 mb-4">Connect with ideal tenants for your property through our specialized tenant matching services, ensuring a perfect fit for your rental space.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
-                            </div>
-                            <div className="bg-gray-50 p-6 rounded-lg shadow-2xl">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Assessment</h3>
+                            </Link>
+                            <Link to="/services#health-assessments" className="bg-gray-50 p-6 rounded-lg shadow-2xl">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-2">Health Assessment Services</h3>
                                 <p className="text-gray-700 mb-4">Conduct thorough health assessments to identify potential health risks and create personalized wellness plans for improved employee health.</p>
                                 <div className="flex justify-end">
                                     <span className="text-red-600 font-bold text-lg">→</span>
                                 </div>
-                            </div>
+                            </Link>
 
                         </div>
                     </div>
