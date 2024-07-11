@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
                 <div className="flex-shrink-0">
                     <Link to="/">
-                        <img className="h-10 w-auto" src={`${process.env.PUBLIC_URL}/images/HeacaLego.png`} alt="Heaca Logo" />
+                        <img className="h-16 w-auto" src={`${process.env.PUBLIC_URL}/images/HeacaLego.png`} alt="Heaca Logo" />
                     </Link>
                 </div>
                 <nav className="hidden md:flex space-x-8">
