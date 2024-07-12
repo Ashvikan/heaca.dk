@@ -64,8 +64,8 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                        {/*<img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Talent Acquisition"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
+                        {<img src={`${process.env.PUBLIC_URL}/images/TenantMatching.jpg`} alt="Talent Acquisition"
+                              className="rounded-lg shadow-2xl w-full max-w-md"/>}
                     </div>
                 </div>
             </section>
