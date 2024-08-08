@@ -8,6 +8,7 @@ const Home = () => {
     const sectionsConfig = [
         { id: 'hero', color: '#fbf8fa' },
         { id: 'curiosity', color: '#ffffff' },
+        { id: 'about-praghasini', color: '#ffffff' },
         { id: 'services', color: '#981818' },
         { id: 'latestnews', color: '#ffffff' },
         { id: 'contact', color: '#ffffff' },
@@ -50,12 +51,29 @@ const Home = () => {
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
                             <div className="relative">
-                                <img src={`${process.env.PUBLIC_URL}/images/Prag.png`} alt="Transformation"
-                                     className="rounded-lg shadow-2xl w-full max-w-md relative lg:mt-8"/>
-                                {/*<img src={`${process.env.PUBLIC_URL}/images/3.jpg`} alt="Secondary"
-                                     className="rounded-lg shadow-2xl w-64 absolute bottom-0 right-0 transform translate-x-4 translate-y-12 lg:translate-y-16"/>
-                                     */}
+                                <video className="w-full max-w-2xl h-auto rounded-lg shadow-2xl lg:mt-8" controls>
+                                    <source src={`${process.env.PUBLIC_URL}/ArosVideo.mp4`} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* About Praghasini Section */}
+                <section id="about-praghasini" className="about-praghasini-section py-44 section lg:pt-60">
+                    <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+                        <div className="lg:w-1/2 flex justify-center lg:justify-start relative">
+                            <div className="relative">
+                                <img src={`${process.env.PUBLIC_URL}/images/Prag.png`} alt="Praghasini" className="w-full max-w-lg h-auto rounded-lg shadow-2xl lg:mt-8" />
+                            </div>
+                        </div>
+                        <div className="lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
+                            <h2 className="text-xl font-bold text-red-600 mb-2 uppercase tracking-wide">CEO</h2>
+                            <h3 className="text-3xl font-bold text-gray-900 mb-4">Pragashini Baskaran</h3>
+                            <p className="text-lg text-gray-700 mb-4">
+                                "In Heaca we have a trusted partner that inspires, builds and runs value-adding solutions with us."
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -168,7 +186,7 @@ const Home = () => {
                 */}
 
                 {/* Contact Us Section */}
-                <section id="contact" className="contact-us-section py-32 section">
+                <section id="contact" className="contact-us-section py-32 section mt-40">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
                         <p className="text-lg text-gray-700 mb-6">
