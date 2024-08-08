@@ -50,15 +50,13 @@ const Home = () => {
                             </p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
-                            <div className="relative">
-                                <video className="w-full max-w-2xl h-auto rounded-lg shadow-2xl lg:mt-8" controls>
-                                    <source src={`${process.env.PUBLIC_URL}/ArosVideo.mp4`} type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
+                            <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+                                <iframe width="560" height="315" src="https://youtu.be/prK9ag1EoEQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}></iframe>
                             </div>
                         </div>
                     </div>
                 </section>
+
 
                 {/* About Praghasini Section */}
                 <section id="about-praghasini" className="about-praghasini-section py-44 section lg:pt-60">
