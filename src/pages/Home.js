@@ -39,20 +39,16 @@ const Home = () => {
                 <section id="curiosity" className="curiosity-section py-44 section lg:pt-60 section">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
                         <div className="lg:w-1/2">
-                            <h2 className="text-xl font-bold text-red-600 mb-4 uppercase tracking-wide">Changing the
-                                world</h2>
+                            <h2 className="text-xl font-bold text-red-600 mb-4 uppercase tracking-wide">Changing the world</h2>
                             <h3 className="text-3xl font-bold text-gray-900 mb-4">Curiosity creates transformation</h3>
                             <p className="text-lg text-gray-700 mb-12">
-                                Discover why companies choose us. At Heaca, we offer unparalleled expertise based on
-                                decades of experience within Denmark's public and private healthcare sectors. Our
-                                profound knowledge allows us to navigate the complexities of the healthcare sector with
-                                precision and insight, ensuring our clients receive the best possible support.
+                                Discover why companies choose us. At Heaca, we offer unparalleled expertise based on decades of experience within Denmark's public and private healthcare sectors. Our profound knowledge allows us to navigate the complexities of the healthcare sector with precision and insight, ensuring our clients receive the best possible support.
                             </p>
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
-                            <div className="relative">
+                            <div className="relative w-full max-w-4xl h-96">
                                 <iframe
-                                    className="w-full max-w-2xl h-auto rounded-lg shadow-2xl lg:mt-8"
+                                    className="w-full h-full rounded-lg shadow-2xl lg:mt-8"
                                     src="https://www.youtube.com/embed/prK9ag1EoEQ"
                                     title="YouTube video player"
                                     frameBorder="0"
