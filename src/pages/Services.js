@@ -64,8 +64,10 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                        {<img src={`${process.env.PUBLIC_URL}/images/TenantMatching.jpg`} alt="Talent Acquisition"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>}
+                        <img src={`${process.env.PUBLIC_URL}/images/TalentAcquisition1.jpg`} alt="Talent Acquisition"
+                             className="rounded-lg shadow-2xl w-full max-w-md mb-4"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/TalentAcquisition2.jpg`} alt="Talent Acquisition"
+                             className="rounded-lg shadow-2xl w-full max-w-md"/>
                     </div>
                 </div>
             </section>
@@ -98,8 +100,10 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pr-12 flex justify-center lg:justify-start">
-                        {/*<img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Health Insurance Strategy"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
+                        <img src={`${process.env.PUBLIC_URL}/images/HealthInsurance1.jpg`} alt="Health Insurance Strategy"
+                             className="rounded-lg shadow-2xl w-full max-w-md mb-4"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/HealthInsurance2.jpg`} alt="Health Insurance Strategy"
+                             className="rounded-lg shadow-2xl w-full max-w-md"/>
                     </div>
                 </div>
             </section>
@@ -139,8 +143,10 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                        {/*<img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Global Healthcare Partner Services"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
+                        <img src={`${process.env.PUBLIC_URL}/images/GlobalHealthcare1.jpg`} alt="Global Healthcare Partner Services"
+                             className="rounded-lg shadow-2xl w-full max-w-md mb-4"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/GlobalHealthcare2.jpg`} alt="Global Healthcare Partner Services"
+                             className="rounded-lg shadow-2xl w-full max-w-md"/>
                     </div>
                 </div>
             </section>
@@ -179,8 +185,10 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pr-12 flex justify-center lg:justify-start">
-                        {/*<img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Tenant Matching Services"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
+                        <img src={`${process.env.PUBLIC_URL}/images/TenantMatching1.jpg`} alt="Tenant Matching Services"
+                             className="rounded-lg shadow-2xl w-full max-w-md mb-4"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/TenantMatching2.jpg`} alt="Tenant Matching Services"
+                             className="rounded-lg shadow-2xl w-full max-w-md"/>
                     </div>
                 </div>
             </section>
@@ -223,8 +231,10 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                        {/*<img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Health Assessment Services"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
+                        <img src={`${process.env.PUBLIC_URL}/images/HealthAssessments1.jpg`} alt="Health Assessment Services"
+                             className="rounded-lg shadow-2xl w-full max-w-md mb-4"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/HealthAssessments2.jpg`} alt="Health Assessment Services"
+                             className="rounded-lg shadow-2xl w-full max-w-md"/>
                     </div>
                 </div>
             </section>
@@ -261,8 +271,10 @@ const Services = () => {
                         </p>
                     </div>
                     <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end">
-                        {/*<img src={`${process.env.PUBLIC_URL}/images/1.jpg`} alt="Vaccination Advisory"
-                              className="rounded-lg shadow-2xl w-full max-w-md"/>*/}
+                        <img src={`${process.env.PUBLIC_URL}/images/VaccinationAdvisory1.jpg`} alt="Vaccination Program Advisory"
+                             className="rounded-lg shadow-2xl w-full max-w-md mb-4"/>
+                        <img src={`${process.env.PUBLIC_URL}/images/VaccinationAdvisory2.jpg`} alt="Vaccination Program Advisory"
+                             className="rounded-lg shadow-2xl w-full max-w-md"/>
                     </div>
                 </div>
             </section>
