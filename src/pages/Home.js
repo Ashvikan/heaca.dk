@@ -51,10 +51,14 @@ const Home = () => {
                         </div>
                         <div className="lg:w-1/2 lg:pl-12 flex justify-center lg:justify-end relative">
                             <div className="relative">
-                                <video className="w-full max-w-2xl h-auto rounded-lg shadow-2xl lg:mt-8" controls>
-                                    <source src={`${process.env.PUBLIC_URL}/ArosVideo.mp4`} type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
+                                <iframe
+                                    className="w-full max-w-2xl h-auto rounded-lg shadow-2xl lg:mt-8"
+                                    src="https://www.youtube.com/embed/prK9ag1EoEQ"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen>
+                                </iframe>
                             </div>
                         </div>
                     </div>
