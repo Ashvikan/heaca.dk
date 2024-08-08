@@ -60,7 +60,6 @@ const Home = () => {
                     </div>
                 </section>
 
-
                 {/* About Praghasini Section */}
                 <section id="about-praghasini" className="about-praghasini-section py-44 section lg:pt-60">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
